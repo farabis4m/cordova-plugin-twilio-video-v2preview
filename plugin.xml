@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin 
-    id="cordova-plugin-twilio-video-v2"
+    id="cordova-plugin-twilio-video-v2preview"
     version="0.2.0" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -16,7 +16,7 @@
         <hook type="after_plugin_install" src="hooks/after_plugin_install/hook-add-r-import.js" />
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="VideoConversationPlugin">
-                <param name="android-package" value="com.twiliovideocall.VideoConversationPlugin" />
+                <param name="android-package" value="com.anvay.twiliovideocall.VideoConversationPlugin" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
@@ -32,14 +32,14 @@
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity 
-                android:name="com.twiliovideocall.ConversationActivity"
+                android:name="com.anvay.twiliovideocall.ConversationActivity"
                 android:configChanges="orientation|screenSize" 
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             </activity>
         </config-file>
-        <source-file src="src/android/VideoConversationPlugin.java" target-dir="src/com/twiliovideocall" />
-        <source-file src="src/android/ConversationActivity.java" target-dir="src/com/twiliovideocall" />
-        <source-file src="src/android/Dialog.java" target-dir="src/com/twiliovideocall" />
+        <source-file src="src/android/VideoConversationPlugin.java" target-dir="src/com/anvay/twiliovideocall" />
+        <source-file src="src/android/ConversationActivity.java" target-dir="src/com/anvay/twiliovideocall" />
+        <source-file src="src/android/Dialog.java" target-dir="src/com/anvay/twiliovideocall" />
         <framework src="src/android/twiliovideo.gradle" custom="true" type="gradleReference" />
         <dependency id="cordova-plugin-compat" />
         

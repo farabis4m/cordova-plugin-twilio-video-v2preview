@@ -1,4 +1,4 @@
-package com.twiliovideocall;
+package com.anvay.twiliovideocall;
 
 import org.apache.cordova.BuildHelper;
 import org.apache.cordova.CallbackContext;
