@@ -1,17 +1,22 @@
+## About
+  This is a cordova plugin built using Twilio Video API v2.0.0preview6. Main reason for making the plugin is to support H.264 codec on Android Marshmallow+ devices.
+
+
+## Platform
+  Only Android is supported for now, since ios WebRTC doesn't have a problem with H.264.
+
+
+## Usage
 **Using the cordova plugin**
 
 1. Add to the project
-    - `ionic cordova plugin add [path/to/plugin]`
+    - `ionic cordova plugin add cordova-plugin-twilio-video-v2preview`
+    - `npm install --save cordova-plugin-twilio-video-v2preview`
   
 2. Implement the source code
-  
-    - Declare app name the head of source file where you want to use the plugin (ionic 2/3 only)
-  
     - Get token And Call the API
-    `cordova.videoconversation.open( RoomName: string, Token: string);`
+    `cordova.videoconversation.open( RoomName: string, Token: string, RemoteParticipantName: string);`
 
 
-## iOS Notes
-  1. Open Ionic project in Xcode
-  3.  Add TwilioVideo.framework to the project
-      - Refer IOS/ Manual  Part of [https://www.twilio.com/docs/api/video/download-video-sdks#ios-sdk](https://www.twilio.com/docs/api/video/download-video-sdks#ios-sdk)
+## Credit
+  This plugin was developed using Price F.'s  ( https://github.com/PriceFallin ) plugin ( https://github.com/PriceFallin/cordova-plugin-twilio-video ) as a starting point. I merely modified the code to use Twilio Video API 2.0.0preview6.
