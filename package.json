@@ -11,5 +11,8 @@
   "dependencies": {
     "decompress": "4.2.0",
     "decompress-tarbz2": "4.1.1"
+  },
+  "scripts": {
+    "postinstall": "node hooks/node_before_add/fetch-twilio-video-ios.js"
   }
 }
