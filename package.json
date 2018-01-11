@@ -1,10 +1,15 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "name": "cordova-plugin-twilio-video-v2preview",
   "cordova_name": "Twilio video room plugin",
   "license": "Apache 2.0",
   "platforms": [
-    "android"
+    "android",
+    "ios"
   ],
-  "engines": []
+  "engines": [],
+  "dependencies": {
+    "decompress": "4.2.0",
+    "decompress-tarbz2": "4.1.1"
+  }
 }
