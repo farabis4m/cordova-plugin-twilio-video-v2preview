@@ -1,2 +1,5 @@
 .DS_Store
 .idea/
+node_modules
+twilio-video-ios.tar.bz2
+src/ios/frameworks
