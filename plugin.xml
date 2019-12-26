@@ -75,7 +75,7 @@
         <source-file src="src/android/ConversationActivity.java" target-dir="src/com/anvay/twiliovideocall" />
         <source-file src="src/android/Dialog.java" target-dir="src/com/anvay/twiliovideocall" />
         <framework src="src/android/twiliovideo.gradle" custom="true" type="gradleReference" />
-        <dependency id="cordova-plugin-compat" />
+        
         
         <resource-file src="src/android/res/drawable/ic_call_black_24dp.xml" target="res/drawable/ic_call_black_24dp.xml" />
         <resource-file src="src/android/res/drawable/ic_call_end_white_24px.xml" target="res/drawable/ic_call_end_white_24px.xml" />
