@@ -6,4 +6,6 @@ repositories {
 dependencies {
     compile 'com.twilio:video-android:2.0.0-preview6'
     compile 'com.koushikdutta.ion:ion:2.1.7'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:design:28.0.0'
 }
